@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titletext" format="string" />
+    <attr name="titletextcolor" format="color" />
+    <attr name="titletextsize" format="dimension" />
+    <attr name="drawcolor" format="color" />
+    <attr name="drawwidth" format="dimension" />
+    <attr name="numsize" format="dimension" />
+    <attr name="numcolor" format="color" />
+    <attr name="num" format="string" />
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="titletext" />
+        <attr name="titletextcolor" />
+        <attr name="titletextsize" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomRoundProgressBar">
+        <attr name="drawcolor" />
+        <attr name="drawwidth" />
+        <attr name="numsize" />
+        <attr name="numcolor" />
+        <attr name="num" />
+    </declare-styleable>
+
+</resources>

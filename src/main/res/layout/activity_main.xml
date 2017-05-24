@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cdemo.customview.MainActivity">
+
+    <!--
+    <com.cdemo.customview.CustomTitleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        app:titletext="666666"
+        app:titletextcolor="#ff0000"
+        app:titletextsize="50sp" />
+        -->
+
+    <com.cdemo.customview.CustomRoundProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:drawcolor="#000fff"
+        app:drawwidth="50dp"
+        app:num="test"
+        app:numcolor="#000fff"
+        app:numsize="35sp" />
+</RelativeLayout>
