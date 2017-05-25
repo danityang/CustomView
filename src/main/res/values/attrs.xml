@@ -6,9 +6,8 @@
     <attr name="titletextsize" format="dimension" />
     <attr name="drawcolor" format="color" />
     <attr name="drawwidth" format="dimension" />
-    <attr name="numsize" format="dimension" />
-    <attr name="numcolor" format="color" />
-    <attr name="num" format="string" />
+    <attr name="textsize" format="dimension" />
+    <attr name="textcolor" format="color" />
 
     <declare-styleable name="CustomTitleView">
         <attr name="titletext" />
@@ -20,9 +19,8 @@
     <declare-styleable name="CustomRoundProgressBar">
         <attr name="drawcolor" />
         <attr name="drawwidth" />
-        <attr name="numsize" />
-        <attr name="numcolor" />
-        <attr name="num" />
+        <attr name="textsize" />
+        <attr name="textcolor" />
     </declare-styleable>
 
 </resources>

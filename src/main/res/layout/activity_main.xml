@@ -19,12 +19,12 @@
         -->
 
     <com.cdemo.customview.CustomRoundProgressBar
+        android:id="@+id/customprogressbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        app:drawcolor="#000fff"
-        app:drawwidth="50dp"
-        app:num="test"
-        app:numcolor="#000fff"
-        app:numsize="35sp" />
+        app:drawcolor="#4ACC60"
+        app:drawwidth="39dp"
+        app:textcolor="#4ACC60"
+        app:textsize="50sp" />
 </RelativeLayout>
